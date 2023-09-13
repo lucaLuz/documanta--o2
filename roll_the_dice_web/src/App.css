@@ -1,0 +1,66 @@
+.App {
+    text-align: center;
+    background-color: #aaa;
+    width: 100vw;
+    height: 100vh;
+    padding: 30px 10%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.App > #dados {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.App > #dados > button {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    flex: 1;
+}
+
+.App > #resultados {
+    margin-top: 20px;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    gap: 40px;
+    width: 100%;
+}
+
+.App > #resultados > div {
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.App > #resultados > div:last-of-type {
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.App > #resultados > div:last-of-type > h3 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.App > #resultados > div:last-of-type > p {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+}
+
+.App > #resultados > div:last-of-type > p > span:first-of-type {
+    color: #997700;
+    font-weight: bold;
+}
